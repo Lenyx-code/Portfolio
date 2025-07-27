@@ -5,15 +5,15 @@ import imgCSS from "../assets/techno/css.png";
 import imgJS from "../assets/techno/js.png";
 import imgREACT from "../assets/techno/react.png";
 import imgHTML from "../assets/techno/html.png";
-import imgPOSTGRE from "../assets/techno/postgre.png";
+import imgPOSTGRE from "../assets/techno/Postgre.png";
 import imgMYSQL from "../assets/techno/mysql.svg";
-import imgPYTHON from "../assets/techno/python.png";
+import imgPYTHON from "../assets/techno/Python.png";
 import imgTAILWIND from "../assets/techno/tailwind.png";
 import imgDART from "../assets/techno/dart_logo.webp";
 import imgFLUTTER from "../assets/techno/flutter.png";
 import imgSUPABASE from "../assets/techno/supabase.png";
 import imgPHP from "../assets/techno/php.png";
-import imgBOOTSTRAP from "../assets/techno/bootstrap_logo.png";
+import imgBOOTSTRAP from "../assets/techno/Bootstrap_logo.png";
 
 
 
