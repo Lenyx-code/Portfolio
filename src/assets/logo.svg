@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="12" fill="#0F172A"/>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Segoe UI, sans-serif"
+        font-size="20"
+        font-weight="bold">
+    <tspan fill="#FACC15">&lt;/</tspan>
+    <tspan fill="#38BDF8">LD</tspan>
+    <tspan fill="#FACC15">&gt;</tspan>
+  </text>
+</svg>
