@@ -14,6 +14,10 @@ import imgFLUTTER from "../assets/techno/flutter.png";
 import imgSUPABASE from "../assets/techno/supabase.png";
 import imgPHP from "../assets/techno/php.png";
 import imgBOOTSTRAP from "../assets/techno/Bootstrap_logo.png";
+import imgCrtv from "../assets/companies/crtv-logo.png";
+import imgFreelance from "../assets/companies/franlance.png";
+import imgOpeneng from "../assets/companies/OE.png";
+
 
 
 
@@ -46,7 +50,7 @@ const experiences = [
       "Analyse et évaluation de l’application de gestion de présence.",
       "Proposition d’améliorations techniques et fonctionnelles."
     ],
-    image: "",
+    image: imgCrtv,
   },
   {
     id: 2,
@@ -57,7 +61,7 @@ const experiences = [
       "Développement d’une application mobile avec Flutter.",
       "Maintenance continue et évolutions fonctionnelles selon les besoins."
     ],
-    image: "",
+    image: imgFreelance,
   },
   {
     id: 3,
@@ -68,7 +72,7 @@ const experiences = [
       "Formation des utilisateurs sur le terrain à l’usage des outils développés sur L'ERP Odoo.",
       "Développement de modules odoo personnalisés selon les besoins métier."
     ],
-    image: "",
+    image: imgOpeneng,
   },
 ];
 
