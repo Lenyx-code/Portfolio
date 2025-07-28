@@ -5,7 +5,7 @@ import imgCSS from "../assets/techno/css.png";
 import imgJS from "../assets/techno/js.png";
 import imgREACT from "../assets/techno/react.png";
 import imgHTML from "../assets/techno/html.png";
-import imgPOSTGRE from "../assets/techno/Postgre.png";
+import imgPOSTGRE from "../assets/techno/postgre.png";
 import imgMYSQL from "../assets/techno/mysql.svg";
 import imgPYTHON from "../assets/techno/python.png";
 import imgTAILWIND from "../assets/techno/tailwind.png";
