@@ -28,7 +28,7 @@ const projets = [
     {
      id : 1,
      name : "DU FAIBLE AU FORT (Backoffice)",
-     description : "Application web : espace d'aministration pour la gestion du contenue a affichier dans au niveau du client (appli mobile) car ça fonctionne en local",
+     description : "Application web : espace d'aministration pour la gestion du contenu a affichier dans au niveau du client (appli mobile)",
      techno : ["html", "css","Js", "php", "MysqlL", "Bootstrap"],
      demolink : "#",
      repolink : "#",
