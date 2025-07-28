@@ -20,7 +20,7 @@ const Home = () => {
           N'hésitez pas à me contacter.
         </p>
 
-        <a href="#" className="btn btn-accent flex items-center gap-2 mt-2 w-fit">
+        <a href="mailto:lenyxdev@gmail.com" className="btn btn-accent flex items-center gap-2 mt-2 w-fit">
           <Mail className="w-5 h-5" />
           Contactez-moi
         </a>

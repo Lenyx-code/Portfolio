@@ -2,68 +2,85 @@ import { Github, Video } from "lucide-react";
 import SubTitle from "./subtitle";
 import Title from "./title";
 
+import imgFF from "../assets/projects/du_faible_au_fort.jpg"
+import imgFFbackoffice from "../assets/projects/ff.png";
+import imgPortfolio from "../assets/projects/portfolio.png";
+import imgTransit from "../assets/projects/transit.png";
+import imgGamme from "../assets/projects/gamme.png";
+import imgEnc from "../assets/projects/encaissement.png";
+import imgCRM from "../assets/projects/crm.png";
+
 const projets = [
   {
    mobile : [
     {
      id : 1,
      name : "DU FAIBLE AU FORT",
-     description : "Application mobile pédagogique,",
+     description :"Application Android : Créée à des fins pédagogiques, cette application propose un système d’authentification sécurisé, la gestion de niveaux et de thèmes (orthographe, grammaire, conjugaison), ainsi qu’une série d’exercices interactifs sous forme de phrases à trous. Elle vise à renforcer les compétences linguistiques des utilisateurs de manière progressive et ludique.",
      techno : ["Flutter", "Dart", "Mysql", "Sqlite"],
      demolink : '#',
      repolink : '#',
-     image : ""
+     image : imgFF
     }
    ],
    
    web : [
     {
      id : 1,
-     name : "DU FAIBLE AU FORT (Backoffice),",
-     description : "Application web",
+     name : "DU FAIBLE AU FORT (Backoffice)",
+     description : "Application web : espace d'aministration pour la gestion du contenue a affichier dans au niveau du client (appli mobile) car ça fonctionne en local",
      techno : ["html", "css","Js", "php", "MysqlL", "Bootstrap"],
      demolink : "#",
      repolink : "#",
-     image : ""
+     image : imgFFbackoffice
     },
     {
      id : 2,
-     name : "MON PORTFOLIO,",
+     name : "MON PORTFOLIO",
      description : "",
      techno : ["React", "Tailwindcss","Daisyui", "Node.js"],
      demolink : "#",
      repolink : "#",
-     image : ""
+     image : imgPortfolio
     },
    ],
 
    odoo : [
     {
      id : 1,
-     name : "GESTION GAMME,",
-     description : "Module personnalisé",
+     name : "GESTION GAMMES",
+     description : "Module personnalisé : destiné à gérer les différentes gammes de produits",
      techno : ["Python", "XML","Odoo","PostgreSql", "Bootstrap"],
      demolink : "#",
      repolink : "#",
-     image : ""
+     image : imgGamme
     },
     {
      id : 2,
-     name : "GESTION TRANSIT,",
-     description : "Module personnalisé",
+     name : "GESTION TRANSIT",
+     description : "Module personnalisé : un module pour suivre la logistisque d'une commande",
      techno : ["Python", "XML","Odoo","PostgreSql", "Bootstrap"],
      demolink : "#",
      repolink : "#",
-     image : ""
+     image : imgTransit
     },
     {
      id : 3,
-     name : "GESTION EMPLOI DE TEMPS,",
-     description : "Module personnalisé",
+     name : "GESTION ENCAISSEMENT",
+     description : "Module personnalisé : créé pour suivre les différents encaiseements fait par les client",
      techno : ["Python", "XML","Odoo","PostgreSql", "Bootstrap"],
      demolink : "#",
      repolink : "#",
-     image : ""
+     image : imgEnc
+    },
+    {
+     id : 4,
+     name : "CUSTOM MODULE CRM",
+     description : "Extension pour le module CRM : ajout d'une fonctionnalité pour gérer les différentes réclammations et pertes après la vente (vue list, vue formulaire et une vue kanban)",
+     techno : ["Python", "XML","Odoo","PostgreSql", "Bootstrap"],
+     demolink : "#",
+     repolink : "#",
+     image : imgCRM
     },
    ]
 
@@ -85,7 +102,7 @@ const Projets = () => {
             <img src={mob.image} alt={mob.name}  className="rounded-xl w-full h-56 object-cover"/>
             <div>
              <h1>{ mob.name }</h1>
-             <p className="text-sm">
+             <p className="text-sm text-gray-400">
               {
                mob.description
               }
@@ -113,6 +130,9 @@ const Projets = () => {
         ))
       }
     </div>
+    <div className="items-center justify-center flex">
+      <a href="" className="btn btn-accent">Voir plus</a>
+    </div>
    </div>
    <div>
     <SubTitle subtitle="DEVELOPPEMENT WEB"/>
@@ -124,7 +144,7 @@ const Projets = () => {
             <img src={w.image} alt={w.name}  className="rounded-xl w-full h-56 object-cover"/>
             <div>
              <h1>{ w.name }</h1>
-             <p className="text-sm">
+             <p className="text-sm text-gray-400">
               {
                w.description
               }
@@ -152,6 +172,9 @@ const Projets = () => {
         ))
       }
     </div>
+        <div className="items-center justify-center flex">
+      <a href="" className="btn btn-accent">Voir plus</a>
+    </div>
    </div>
    <div>
     <SubTitle subtitle="ERP ODOO"/>
@@ -163,7 +186,7 @@ const Projets = () => {
             <img src={o.image} alt={o.name}  className="rounded-xl w-full h-56 object-cover"/>
             <div>
              <h1>{ o.name }</h1>
-             <p className="text-sm">
+             <p className="text-sm text-gray-400">
               {
                o.description
               }
@@ -190,6 +213,9 @@ const Projets = () => {
           ))
         ))
       }
+    </div>
+        <div className="items-center justify-center flex">
+      <a href="" className="btn btn-accent">Voir plus</a>
     </div>
    </div>
   </div>
