@@ -7,7 +7,7 @@ const Home = () => {
       
       <div className="flex flex-col items-center md:items-start text-center md:text-left max-w-xl">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
-          Salut, <br /> je suis
+          Salu <br /> je suis
           <span className="ml-2 text-accent">LenyxDev</span>
         </h1>
 
