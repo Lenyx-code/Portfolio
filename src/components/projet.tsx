@@ -16,7 +16,7 @@ const projetsData = {
   ],
   web: [
     { id: 1, name: "Backoffice - DU FAIBLE AU FORT ", description: "Espace d'administration complet pour la gestion du contenu dynamique de l'écosystème mobile.", techno: ["JS", "PHP", "MySQL", "Bootstrap"], image: imgFFbackoffice },
-    { id: 2, name: "Portfolio V2", description: "Site vitrine moderne optimisé pour la performance et l'expérience utilisateur.", techno: ["React", "TailwindCSS", "DaisyUI", "Vite"], image: imgPortfolio }
+    { id: 2, name: "Portfolio V2", description: "Site vitrine moderne optimisé pour la performance et l'expérience utilisateur.", techno: ["React", "TailwindCSS", "DaisyUI", "Vite"], image: imgPortfolio },
   ],
   odoo: [
     { id: 1, name: "Gestion Gammes", description: "Module Odoo pour la structuration et le management des gammes de produits industriels.", techno: ["Python", "XML", "Odoo", "PostgreSQL"], image: imgGamme },
@@ -74,10 +74,10 @@ const ProjectCard = ({ project, icon: Icon } : any) => (
       <div className="mt-auto flex items-center justify-between opacity-50 group-hover:opacity-100 transition-opacity">
         <div className="flex items-center gap-2 text-[11px] font-medium text-gray-400">
           <Lock className="w-3 h-3" />
-          <span>Confidentiel</span>
+          <span>Privé</span>
         </div>
         <div className="h-[1px] flex-grow mx-4 bg-gradient-to-r from-transparent via-white/10 to-transparent" />
-        <span className="text-[9px] font-black uppercase tracking-tighter text-gray-500">Odoo / Dev</span>
+        <span className="text-[9px] font-black uppercase tracking-tighter text-gray-500"></span>
       </div>
     </div>
   </div>
