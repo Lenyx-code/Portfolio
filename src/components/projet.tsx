@@ -113,7 +113,7 @@ const Projets = () => {
         </div>
       ))}
 
-      {/* CTA Button */}
+      {/* CTA Button 
       <div className="flex justify-center mt-12">
         <button className="group relative inline-flex items-center justify-center px-10 py-4 font-bold text-white transition-all duration-300 hover:text-accent">
             <span className="absolute inset-0 w-full h-full border-2 border-white/10 rounded-2xl group-hover:border-accent group-hover:scale-105 transition-all duration-300"></span>
@@ -121,7 +121,7 @@ const Projets = () => {
                 PLUS SUR GITHUB <ArrowUpRight className="w-4 h-4" />
             </span>
         </button>
-      </div>
+      </div>*/}
     </section>
   );
 };
